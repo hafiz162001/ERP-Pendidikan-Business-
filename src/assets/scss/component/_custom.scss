@@ -1,0 +1,96 @@
+@use "../abstract" as *;
+
+.heading {
+  font-weight: 600;
+}
+
+// .btn-primary {
+//   background-color: $red-primary;
+// }
+
+.certification_details__header--background {
+  background: rgb(251, 212, 57);
+  background: linear-gradient(90deg, #fbd439 0%, #ffcd00 100%);
+}
+
+.certification__header--background {
+  background-image: url("../img/custom/certification_header3.png");
+}
+
+.portofolio__header--background {
+  background-image: url("../img/custom/certification_header.png");
+}
+
+.header__icon {
+  // height: 3rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.show_photo_transaction {
+  width: 100%;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+// fix portofolio size photo
+
+// figure {
+//   img {
+//     color: #ffcd00;
+//     width: 100%;
+//   }
+// }
+
+.portofolio img {
+  max-width: 100%;
+}
+
+// scrollbar
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #bb282b #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba($color: #000000, $alpha: 0.5);
+  border-radius: 10px;
+}
+
+// selection
+
+*::-moz-selection {
+  background: $e-blue;
+  color: $white;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: $e-blue;
+  color: $white;
+  text-shadow: none;
+}
+::selection {
+  background: #bb282b;
+  color: $white;
+  text-shadow: none;
+}
+
+.course__description ul {
+  list-style-type: none;
+}
+
+.course-desc li {
+  list-style-type: none;
+}

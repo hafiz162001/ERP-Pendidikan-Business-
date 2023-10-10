@@ -1,0 +1,18 @@
+@forward "fonts";
+@forward "colors";
+@forward "mixins";
+@forward "breakpoints";
+@forward "remixicon";
+
+/* Global Variables */
+:root {
+  --fontSize: 14px;
+  // --transition: 0.5s;
+  --mainColor: #ed2775;
+  --whiteColor: #ffffff;
+  --blackColor: #262a37;
+  --gradientColor: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+  --paragraphColor: #716c80;
+  --fontFamily: "Inter", sans-serif;
+  scroll-behavior: inherit;
+}

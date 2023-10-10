@@ -1,0 +1,5 @@
+stage-testing:
+  image: ruby:2.5
+  stage: test
+  script:
+    - . .deploy.sh

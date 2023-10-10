@@ -1,0 +1,15 @@
+$enable-negative-margins: true;
+
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+  "altdanger": #bb282b,
+  "altwarning": #fbd439,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "~bootstrap/scss/bootstrap";
+@import "assets/scss/main";
+// @import "../../node_modules/react-accessible-accordion/dist/fancy-example.css";

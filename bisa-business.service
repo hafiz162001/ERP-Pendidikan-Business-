@@ -1,0 +1,11 @@
+[Unit]
+Description=bisa-business-frontend service
+
+[Service]
+Restart=on-failure
+RestartSec=5s
+User=deployer
+ExecStart=PATH/RUN.sh
+
+[Install]
+WantedBy=multi-user.target

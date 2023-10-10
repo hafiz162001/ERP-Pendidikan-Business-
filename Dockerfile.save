@@ -1,0 +1,10 @@
+FROM strongpapazola/ubuntu:template
+WORKDIR /app
+COPY . .
+RUN curl -sL https://deb.nodesource.com/setup_17.x -o /tmp/nodesource_setup.sh
+nano /tmp/nodesource_setup.sh
+sudo bash /tmp/nodesource_setup.sh
+sudo apt install nodejs -y
+node -v
+npm -v
+sudo apt install build-essential -y
